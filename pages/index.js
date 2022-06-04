@@ -33,7 +33,12 @@ export default function Index({ posts, globalData }) {
                       {post.data.date}
                     </p>
                   )}
-                  <h2 className="text-2xl md:text-3xl">{post.data.title}</h2>
+                  <h2 className="text-2xl md:text-3xl">Hi Fam,
+I was looking to book your room for a month. I work as a developer for a company, and wanted to know if you had a few of things in your room -
+1. desk
+2. Proper wifi
+3. Access to the kitchen? - I don't plan to cook but would be good to have access to heat food up.
+Thanks</h2>
                   {post.data.description && (
                     <p className="mt-3 text-lg opacity-60">
                       {post.data.description}
